@@ -1,0 +1,105 @@
+body{
+    margin: 0 auto;
+}
+.container{
+    height: auto;
+    width: 1200px;
+    padding: 15px;
+    background-color:rgb(51, 51, 51);
+    z-index: 2;
+}
+.header{
+    color: white;
+    position: relative;
+}
+.logotext{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    font-family:'Times New Roman', Times, serif;
+}
+/* Dashboard Slider */
+.images{
+    position: relative;
+    height: 700px;
+    width: 1296px;
+}
+.imgbox{
+    position: absolute;
+    height: 700px;
+    width: 1296px;
+}
+.imgbox img{
+    position: absolute;
+    height: 700px;
+    width: 1296px;
+    transition: opacity 1s ease-in-out;
+}
+.imgbox img.skyblock2:hover{
+    opacity:0;
+}
+.clearfix{
+    clear: both;
+}
+.dash-heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 15px;
+
+}
+
+.dash-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 15px;
+}
+.dash-box{
+    background-color: rgb(49, 26, 26);
+    width: 1260px;
+    padding: 15px;
+    margin: 15px;
+}
+/* Text Settings */
+.main-heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 15px;
+
+}
+
+.main-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 15px;
+}
+.main-box{
+    float: left;
+    background-color: rgb(49, 26, 26);
+    width: 850px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.side-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 15px;
+}
+.side-box{
+    float: right;
+    background-color: rgb(49, 26, 26);
+    width: 385px;
+    padding: 15px;
+    margin: 15px;
+    
+}
+/* Image Settings: */
+.side-img{
+    width: 355px;
+    height: auto;
+}
+/* Dropdown Settings */
+
